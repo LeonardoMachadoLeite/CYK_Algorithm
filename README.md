@@ -14,7 +14,9 @@ Após a leitura do txt, é necessário que a 2ª célula seja executada para def
 a função cyk.
 
 Para executar o algoritmo em uma palavra basta chamar a função cyk passando a palvara como parámetro.
-Ex: cyk(palavra_teste)
+
+Ex: cyk(palavra_teste).
+
 Essa função retorna uma lista de listas, sendo cada uma dessas listas representa uma linha da derivação.
 
 Visualização:
