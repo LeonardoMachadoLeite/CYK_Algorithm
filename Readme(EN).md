@@ -24,3 +24,11 @@ for x in cyk (test_word):
 
 You can also pass another grammar as a parameter:
 Ex: cyk (test_word, grammar = grammar)
+
+If the word is a valid word in grammar, on the last line is the starting symbol.
+
+If in the last line is a non-initial symbol this means that the word does not belong to grammar.
+
+If the last line is empty, that means that word does not belong in grammar either.
+
+If a symbol not contained in the grammar appears in the word a KeyError exception will be raised in that symbol.
